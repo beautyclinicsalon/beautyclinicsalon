@@ -1,0 +1,218 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 80, 145);
+  }
+  
+
+  
+  header {
+    background-color: #d06dee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ec89f5;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  img {
+    width: 100px;
+    height: auto;
+  }
+  
+
+  #intro {
+   background-image: url(file:///C:/Users/Perdorues/Downloads/mami.jpg);
+   padding: 100px 20px;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+  }
+  
+  #intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #intro p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: transparent;
+    color: #f10f93;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #f10fd349;
+    color: #fff;
+  }
+  
+ 
+  
+  #services {
+    padding: 100px 20px;
+    text-align: center;
+background-image: url();
+
+  }
+  #services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  #about {
+    background-color: #db60db;
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 42px;
+    display: inline-block;
+  }
+  
+  #about h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-item {
+    display: inline-block;
+    margin: 20px;
+  
+  }
+
+
+  .text-box{
+    color: white;
+  
+}
+.text-box h2{
+    font-size: 42px;
+}
+.text-box{
+    font-size: 20px;
+}
+
+
+.logo{
+  size: 30px;
+}
+  
+  
+
+  
+  #contact {
+    background-color: #dd71cb;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+  
+  label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #f10fa6;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d70ff1;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+
+  
